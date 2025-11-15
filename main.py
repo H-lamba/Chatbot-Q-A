@@ -36,7 +36,7 @@ def generate_response(question,api_key,llm,temperature,max_tokens):
 
 st.title("ChatBot Q&A with gemini")
 st.sidebar.title("Settings")
-api_key  = "AIzaSyDhcLJAn933oovo-tCHRYLjQIKKX3JNChM"
+api_key  = st.sidebar.text_input("Enter Your Gemini API Key", type = "password")
 llm = st.sidebar.selectbox("Select an Gemimi Model",["gemini-2.5-pro","gemini-2.5-flash","gemini-2.5-flash-preview-09-2025"])
 temperature = st.sidebar.slider("Temperature", min_value = 0.0, max_value= 1.0, value= 0.7)
 max_tokens = st.sidebar.slider("Max Tokens", min_value = 50 , max_value = 300, value=150)
