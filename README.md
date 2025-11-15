@@ -5,9 +5,6 @@
   <a href="https://github.com/H-lamba/Chatbot-Q-A"><img alt="license" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
   <img alt="python" src="https://img.shields.io/badge/python-3.8%2B-blueviolet">
 </p>
-
-> **Bright, playful, and interactive README for your GenAI chatbot project.** Use the collapsible sections, badges, and examples below to make this repo more inviting.
-
 ---
 
 ## 🚀 Project elevator pitch
